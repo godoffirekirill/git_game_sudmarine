@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED10F2072AE43B3700140EB5 /* SettingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10F2062AE43B3700140EB5 /* SettingClass.swift */; };
+		ED10F2092AE43B5500140EB5 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10F2082AE43B5500140EB5 /* SettingManager.swift */; };
+		ED2AB7D12B0201830062AD76 /* SafeRecorsdClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2AB7D02B0201830062AD76 /* SafeRecorsdClass.swift */; };
+		ED2AB7D32B02066F0062AD76 /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2AB7D22B02066F0062AD76 /* RecordsTableViewCell.swift */; };
+		ED2AB7D72B0225090062AD76 /* RecordSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2AB7D62B0225090062AD76 /* RecordSecondTableViewCell.swift */; };
+		ED61119C2AD936E7009BD305 /* YahooC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED61119B2AD936E7009BD305 /* YahooC-Bold.otf */; };
+		ED61119E2AD9396F009BD305 /* UIView+extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61119D2AD9396F009BD305 /* UIView+extansion.swift */; };
+		EDC0F0CC2ACD5AED00761739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0CB2ACD5AED00761739 /* AppDelegate.swift */; };
+		EDC0F0CE2ACD5AED00761739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0CD2ACD5AED00761739 /* SceneDelegate.swift */; };
+		EDC0F0D02ACD5AED00761739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0CF2ACD5AED00761739 /* ViewController.swift */; };
+		EDC0F0D32ACD5AED00761739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0F0D12ACD5AED00761739 /* Main.storyboard */; };
+		EDC0F0D52ACD5AEE00761739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC0F0D42ACD5AEE00761739 /* Assets.xcassets */; };
+		EDC0F0D82ACD5AEE00761739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0F0D62ACD5AEE00761739 /* LaunchScreen.storyboard */; };
+		EDC0F0E32ACD5AEF00761739 /* Lesson_11_DZ_submarineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0E22ACD5AEF00761739 /* Lesson_11_DZ_submarineTests.swift */; };
+		EDC0F0ED2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0EC2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITests.swift */; };
+		EDC0F0EF2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0EE2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITestsLaunchTests.swift */; };
+		EDC0F0FC2ACD5C2500761739 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0FB2ACD5C2500761739 /* StartGameViewController.swift */; };
+		EDC0F0FE2ACD5DB900761739 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0FD2ACD5DB900761739 /* SettingViewController.swift */; };
+		EDC0F1002ACD5E4800761739 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0FF2ACD5E4800761739 /* RecordsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC0F0DF2ACD5AEF00761739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC0F0C02ACD5AED00761739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC0F0C72ACD5AED00761739;
+			remoteInfo = "Lesson 11 DZ submarine";
+		};
+		EDC0F0E92ACD5AEF00761739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC0F0C02ACD5AED00761739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC0F0C72ACD5AED00761739;
+			remoteInfo = "Lesson 11 DZ submarine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED10F2062AE43B3700140EB5 /* SettingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingClass.swift; sourceTree = "<group>"; };
+		ED10F2082AE43B5500140EB5 /* SettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		ED2AB7D02B0201830062AD76 /* SafeRecorsdClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeRecorsdClass.swift; sourceTree = "<group>"; };
+		ED2AB7D22B02066F0062AD76 /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		ED2AB7D62B0225090062AD76 /* RecordSecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSecondTableViewCell.swift; sourceTree = "<group>"; };
+		ED61119B2AD936E7009BD305 /* YahooC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YahooC-Bold.otf"; sourceTree = "<group>"; };
+		ED61119D2AD9396F009BD305 /* UIView+extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extansion.swift"; sourceTree = "<group>"; };
+		EDC0F0C82ACD5AED00761739 /* Lesson 11 DZ submarine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 11 DZ submarine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0F0CB2ACD5AED00761739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC0F0CD2ACD5AED00761739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC0F0CF2ACD5AED00761739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC0F0D22ACD5AED00761739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC0F0D42ACD5AEE00761739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC0F0D72ACD5AEE00761739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC0F0D92ACD5AEE00761739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC0F0DE2ACD5AEF00761739 /* Lesson 11 DZ submarineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 11 DZ submarineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0F0E22ACD5AEF00761739 /* Lesson_11_DZ_submarineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_11_DZ_submarineTests.swift; sourceTree = "<group>"; };
+		EDC0F0E82ACD5AEF00761739 /* Lesson 11 DZ submarineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 11 DZ submarineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0F0EC2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_11_DZ_submarineUITests.swift; sourceTree = "<group>"; };
+		EDC0F0EE2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_11_DZ_submarineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDC0F0FB2ACD5C2500761739 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		EDC0F0FD2ACD5DB900761739 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EDC0F0FF2ACD5E4800761739 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC0F0C52ACD5AED00761739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0DB2ACD5AEF00761739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0E52ACD5AEF00761739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED61119A2AD935FE009BD305 /* Fronts */ = {
+			isa = PBXGroup;
+			children = (
+				ED61119B2AD936E7009BD305 /* YahooC-Bold.otf */,
+			);
+			path = Fronts;
+			sourceTree = "<group>";
+		};
+		EDC0F0BF2ACD5AED00761739 = {
+			isa = PBXGroup;
+			children = (
+				EDC0F0CA2ACD5AED00761739 /* Lesson 11 DZ submarine */,
+				EDC0F0E12ACD5AEF00761739 /* Lesson 11 DZ submarineTests */,
+				EDC0F0EB2ACD5AEF00761739 /* Lesson 11 DZ submarineUITests */,
+				EDC0F0C92ACD5AED00761739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC0F0C92ACD5AED00761739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F0C82ACD5AED00761739 /* Lesson 11 DZ submarine.app */,
+				EDC0F0DE2ACD5AEF00761739 /* Lesson 11 DZ submarineTests.xctest */,
+				EDC0F0E82ACD5AEF00761739 /* Lesson 11 DZ submarineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC0F0CA2ACD5AED00761739 /* Lesson 11 DZ submarine */ = {
+			isa = PBXGroup;
+			children = (
+				ED61119A2AD935FE009BD305 /* Fronts */,
+				EDC0F0CB2ACD5AED00761739 /* AppDelegate.swift */,
+				EDC0F0CD2ACD5AED00761739 /* SceneDelegate.swift */,
+				EDC0F0CF2ACD5AED00761739 /* ViewController.swift */,
+				EDC0F0D12ACD5AED00761739 /* Main.storyboard */,
+				ED2AB7D62B0225090062AD76 /* RecordSecondTableViewCell.swift */,
+				EDC0F0FF2ACD5E4800761739 /* RecordsViewController.swift */,
+				ED2AB7D22B02066F0062AD76 /* RecordsTableViewCell.swift */,
+				EDC0F0FD2ACD5DB900761739 /* SettingViewController.swift */,
+				ED2AB7D02B0201830062AD76 /* SafeRecorsdClass.swift */,
+				ED10F2082AE43B5500140EB5 /* SettingManager.swift */,
+				ED10F2062AE43B3700140EB5 /* SettingClass.swift */,
+				EDC0F0FB2ACD5C2500761739 /* StartGameViewController.swift */,
+				ED61119D2AD9396F009BD305 /* UIView+extansion.swift */,
+				EDC0F0D42ACD5AEE00761739 /* Assets.xcassets */,
+				EDC0F0D62ACD5AEE00761739 /* LaunchScreen.storyboard */,
+				EDC0F0D92ACD5AEE00761739 /* Info.plist */,
+			);
+			path = "Lesson 11 DZ submarine";
+			sourceTree = "<group>";
+		};
+		EDC0F0E12ACD5AEF00761739 /* Lesson 11 DZ submarineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F0E22ACD5AEF00761739 /* Lesson_11_DZ_submarineTests.swift */,
+			);
+			path = "Lesson 11 DZ submarineTests";
+			sourceTree = "<group>";
+		};
+		EDC0F0EB2ACD5AEF00761739 /* Lesson 11 DZ submarineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F0EC2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITests.swift */,
+				EDC0F0EE2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITestsLaunchTests.swift */,
+			);
+			path = "Lesson 11 DZ submarineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC0F0C72ACD5AED00761739 /* Lesson 11 DZ submarine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0F0F22ACD5AEF00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ submarine" */;
+			buildPhases = (
+				EDC0F0C42ACD5AED00761739 /* Sources */,
+				EDC0F0C52ACD5AED00761739 /* Frameworks */,
+				EDC0F0C62ACD5AED00761739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 11 DZ submarine";
+			productName = "Lesson 11 DZ submarine";
+			productReference = EDC0F0C82ACD5AED00761739 /* Lesson 11 DZ submarine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC0F0DD2ACD5AEF00761739 /* Lesson 11 DZ submarineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0F0F52ACD5AEF00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ submarineTests" */;
+			buildPhases = (
+				EDC0F0DA2ACD5AEF00761739 /* Sources */,
+				EDC0F0DB2ACD5AEF00761739 /* Frameworks */,
+				EDC0F0DC2ACD5AEF00761739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC0F0E02ACD5AEF00761739 /* PBXTargetDependency */,
+			);
+			name = "Lesson 11 DZ submarineTests";
+			productName = "Lesson 11 DZ submarineTests";
+			productReference = EDC0F0DE2ACD5AEF00761739 /* Lesson 11 DZ submarineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC0F0E72ACD5AEF00761739 /* Lesson 11 DZ submarineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0F0F82ACD5AEF00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ submarineUITests" */;
+			buildPhases = (
+				EDC0F0E42ACD5AEF00761739 /* Sources */,
+				EDC0F0E52ACD5AEF00761739 /* Frameworks */,
+				EDC0F0E62ACD5AEF00761739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC0F0EA2ACD5AEF00761739 /* PBXTargetDependency */,
+			);
+			name = "Lesson 11 DZ submarineUITests";
+			productName = "Lesson 11 DZ submarineUITests";
+			productReference = EDC0F0E82ACD5AEF00761739 /* Lesson 11 DZ submarineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC0F0C02ACD5AED00761739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EDC0F0C72ACD5AED00761739 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EDC0F0DD2ACD5AEF00761739 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDC0F0C72ACD5AED00761739;
+					};
+					EDC0F0E72ACD5AEF00761739 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDC0F0C72ACD5AED00761739;
+					};
+				};
+			};
+			buildConfigurationList = EDC0F0C32ACD5AED00761739 /* Build configuration list for PBXProject "Lesson 11 DZ submarine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC0F0BF2ACD5AED00761739;
+			productRefGroup = EDC0F0C92ACD5AED00761739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC0F0C72ACD5AED00761739 /* Lesson 11 DZ submarine */,
+				EDC0F0DD2ACD5AEF00761739 /* Lesson 11 DZ submarineTests */,
+				EDC0F0E72ACD5AEF00761739 /* Lesson 11 DZ submarineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC0F0C62ACD5AED00761739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0D82ACD5AEE00761739 /* LaunchScreen.storyboard in Resources */,
+				EDC0F0D52ACD5AEE00761739 /* Assets.xcassets in Resources */,
+				ED61119C2AD936E7009BD305 /* YahooC-Bold.otf in Resources */,
+				EDC0F0D32ACD5AED00761739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0DC2ACD5AEF00761739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0E62ACD5AEF00761739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC0F0C42ACD5AED00761739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0FE2ACD5DB900761739 /* SettingViewController.swift in Sources */,
+				ED10F2072AE43B3700140EB5 /* SettingClass.swift in Sources */,
+				ED2AB7D12B0201830062AD76 /* SafeRecorsdClass.swift in Sources */,
+				EDC0F0D02ACD5AED00761739 /* ViewController.swift in Sources */,
+				ED2AB7D72B0225090062AD76 /* RecordSecondTableViewCell.swift in Sources */,
+				EDC0F0CC2ACD5AED00761739 /* AppDelegate.swift in Sources */,
+				EDC0F0CE2ACD5AED00761739 /* SceneDelegate.swift in Sources */,
+				EDC0F0FC2ACD5C2500761739 /* StartGameViewController.swift in Sources */,
+				EDC0F1002ACD5E4800761739 /* RecordsViewController.swift in Sources */,
+				ED61119E2AD9396F009BD305 /* UIView+extansion.swift in Sources */,
+				ED10F2092AE43B5500140EB5 /* SettingManager.swift in Sources */,
+				ED2AB7D32B02066F0062AD76 /* RecordsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0DA2ACD5AEF00761739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0E32ACD5AEF00761739 /* Lesson_11_DZ_submarineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0E42ACD5AEF00761739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0ED2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITests.swift in Sources */,
+				EDC0F0EF2ACD5AEF00761739 /* Lesson_11_DZ_submarineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC0F0E02ACD5AEF00761739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC0F0C72ACD5AED00761739 /* Lesson 11 DZ submarine */;
+			targetProxy = EDC0F0DF2ACD5AEF00761739 /* PBXContainerItemProxy */;
+		};
+		EDC0F0EA2ACD5AEF00761739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC0F0C72ACD5AED00761739 /* Lesson 11 DZ submarine */;
+			targetProxy = EDC0F0E92ACD5AEF00761739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC0F0D12ACD5AED00761739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC0F0D22ACD5AED00761739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC0F0D62ACD5AEE00761739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC0F0D72ACD5AEE00761739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC0F0F02ACD5AEF00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC0F0F12ACD5AEF00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC0F0F32ACD5AEF00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 11 DZ submarine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-submarine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC0F0F42ACD5AEF00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 11 DZ submarine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-submarine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC0F0F62ACD5AEF00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-submarineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 11 DZ submarine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 11 DZ submarine";
+			};
+			name = Debug;
+		};
+		EDC0F0F72ACD5AEF00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-submarineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 11 DZ submarine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 11 DZ submarine";
+			};
+			name = Release;
+		};
+		EDC0F0F92ACD5AEF00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-submarineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 11 DZ submarine";
+			};
+			name = Debug;
+		};
+		EDC0F0FA2ACD5AEF00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-submarineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 11 DZ submarine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC0F0C32ACD5AED00761739 /* Build configuration list for PBXProject "Lesson 11 DZ submarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0F02ACD5AEF00761739 /* Debug */,
+				EDC0F0F12ACD5AEF00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0F0F22ACD5AEF00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ submarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0F32ACD5AEF00761739 /* Debug */,
+				EDC0F0F42ACD5AEF00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0F0F52ACD5AEF00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ submarineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0F62ACD5AEF00761739 /* Debug */,
+				EDC0F0F72ACD5AEF00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0F0F82ACD5AEF00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ submarineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0F92ACD5AEF00761739 /* Debug */,
+				EDC0F0FA2ACD5AEF00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC0F0C02ACD5AED00761739 /* Project object */;
+}
